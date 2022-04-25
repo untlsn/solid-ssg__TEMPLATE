@@ -6,7 +6,6 @@ export default defineConfig({
 	plugins: [
 		solid({
 			adapter: solidStatic(),
-			prerenderRoutes: [ '/', '/about', '/404' ]
 		})
 	]
 });
