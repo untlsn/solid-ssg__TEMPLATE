@@ -1,6 +1,6 @@
 // @refresh reload
 import { Links, Meta, Routes, Scripts } from 'solid-start/root';
-import 'tailwindcss/tailwind.css';
+import '$css';
 
 export default () => {
 	return (

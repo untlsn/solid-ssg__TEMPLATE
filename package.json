@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"dev": "solid-start dev",
+		"dev": "solid-start dev --port=3333",
 		"build": "solid-start build",
 		"start": "solid-start start"
 	},
@@ -17,6 +17,8 @@
 		"vite": "^2.9.5"
 	},
 	"dependencies": {
-		"undici": "^5.0.0"
+		"@unocss/reset": "^0.31.15",
+		"undici": "^5.0.0",
+		"unocss": "^0.31.15"
 	}
 }
