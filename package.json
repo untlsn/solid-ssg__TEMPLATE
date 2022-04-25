@@ -5,7 +5,10 @@
 		"start": "solid-start start"
 	},
 	"type": "module",
-	"devDependencies": {
+	"dependencies": {
+		"@unocss/reset": "^0.31.15",
+		"undici": "^5.0.0",
+		"unocss": "^0.31.15",
 		"autoprefixer": "^10.4.4",
 		"postcss": "^8.4.12",
 		"solid-app-router": "^0.3.2",
@@ -15,10 +18,5 @@
 		"solid-start-static": "next",
 		"tailwindcss": "^3.0.24",
 		"vite": "^2.9.5"
-	},
-	"dependencies": {
-		"@unocss/reset": "^0.31.15",
-		"undici": "^5.0.0",
-		"unocss": "^0.31.15"
 	}
 }
