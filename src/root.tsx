@@ -1,6 +1,5 @@
 // @refresh reload
 import { Links, Meta, Routes, Scripts } from 'solid-start/root';
-import '$css';
 
 export default () => {
 	return (
